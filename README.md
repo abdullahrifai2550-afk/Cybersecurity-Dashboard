@@ -1,18 +1,19 @@
 # Cybersecurity Study Dashboard
 
-This project is a prototype dashboard for monitoring study progress in the Cybersecurity degree program.
+## Projektbeschreibung
 
-## Features
+Dieses Projekt ist ein webbasiertes Dashboard zur Überwachung des Studienfortschritts im Studiengang Cybersecurity.
 
-- Display student information
-- Calculate current GPA
-- Show target GPA
-- Visualize module progress
-- Visualize time progress
-- Display completed modules
-- Use object-oriented Python structure
+## Funktionen
 
-## Technologies
+- Anzeige von Studenteninformationen
+- Berechnung des aktuellen GPA
+- Anzeige des Ziel-GPA
+- Visualisierung des Modulfortschritts
+- Visualisierung des Zeitfortschritts
+- Anzeige abgeschlossener Module
+
+## Verwendete Technologien
 
 - Python
 - Streamlit
@@ -20,14 +21,24 @@ This project is a prototype dashboard for monitoring study progress in the Cyber
 - Visual Studio Code
 - GitHub
 
-## Project Structure
+## Installation
 
-- models: Entity classes
-- services: Calculation and data management logic
-- views: Streamlit dashboard view
-- data: JSON data file
+1. Repository klonen:
 
-## Start Application
+git clone https://github.com/abdullahrifai2550-afk/Cybersecurity-Dashboard.git
 
-```bash
-python -m streamlit run app.py
+2. Projektordner öffnen:
+
+cd Cybersecurity-Dashboard
+
+3. Abhängigkeiten installieren:
+
+pip install -r requirements.txt
+
+4. Anwendung starten:
+
+streamlit run app.py
+
+## Autor
+
+Abdullah Alrefaai
