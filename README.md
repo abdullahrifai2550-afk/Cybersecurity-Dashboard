@@ -39,6 +39,9 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
+## Dasboard Screenshot
+![Dashboard](screenshots/dashboard.png)
+
 ## Autor
 
 Abdullah Alrefaai
